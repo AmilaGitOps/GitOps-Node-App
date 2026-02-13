@@ -7,8 +7,8 @@ Best Practices Used :
 * .dockerignore file used to prevent copying unwanted files inside the docker image and minimize the docker image size.
 * Kubernetes deployment.yaml livenessProbe and readinessProbe for pods health checks etc.
 * Kubernetes manifests (kustomize overlays) used.
-
-  Can use Kubernetes HPA (Horizontal pod autoscaler) if want to autoscale in future needs.
+* Can use Kubernetes HPA (Horizontal pod autoscaler) if want to autoscale in future needs.
+* ArgoCD Gitops yaml file using for continuous deployments.  https://github.com/AmilaGitOps/GitOps-Node-App/blob/main/k8s/argocd/app-dev.yaml
 
 
 
