@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/AmilaGitOps/GitOps-Node-App.git
     targetRevision: main
-    path: k8s/overlays/dev
+    path: k8s/env/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
